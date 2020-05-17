@@ -1,4 +1,3 @@
-// todo
 // this module helps the definition of a new emulation binding together
 //
 // simulation
@@ -20,3 +19,12 @@
 //              initial, integer number of population at day 0
 //              max, number of max population
 //              min, number of min population
+
+import Simulator from "./simulator.js";
+
+
+
+
+
+
+

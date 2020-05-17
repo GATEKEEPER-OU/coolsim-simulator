@@ -17,5 +17,8 @@
     "url": "https://github.com/DrPollo/Community-Planner-Simulation/issues"
   },
   "homepage": "https://github.com/DrPollo/Community-Planner-Simulation#readme",
-  "type":"module"
+  "type": "module",
+  "dependencies": {
+    "uniqid": "^5.2.0"
+  }
 }
