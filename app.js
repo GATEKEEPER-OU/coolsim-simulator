@@ -22,6 +22,8 @@
 
 import Simulator from "./simulator.js";
 
+// todo set ENV params for using this as a CLI
+// todo set express server for using this via API
 
 
 

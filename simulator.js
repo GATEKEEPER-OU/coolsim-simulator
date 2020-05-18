@@ -30,6 +30,7 @@ export default class{
         });
 
         this.params = {
+            _id:this.id,
             simulation:this.id,
             speed,
             save,
@@ -38,7 +39,11 @@ export default class{
         };
 
         if(this.params.save){
-            this.store = new Store({type:"simulations"});
+            try {
+                this.store = new Store({type: "simulations"});
+            }catch (err){
+                console.error("store error",err)
+            }
         }
 
         this.eventsHelper = new Events();
