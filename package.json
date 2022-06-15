@@ -1,5 +1,5 @@
 {
-  "name": "Simulation",
+  "name": "coolsim-simulator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DrPollo/Community-Planner-Simulation.git"
+    "url": "git+https://github.com/GATEKEEPER-OU/coolsim-simulator.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DrPollo/Community-Planner-Simulation/issues"
+    "url": "https://github.com/GATEKEEPER-OU/coolsim-simulator/issues"
   },
-  "homepage": "https://github.com/DrPollo/Community-Planner-Simulation#readme",
+  "homepage": "https://github.com/GATEKEEPER-OU/coolsim-simulator#readme",
   "type": "module",
   "dependencies": {
     "uniqid": "^5.2.0"
