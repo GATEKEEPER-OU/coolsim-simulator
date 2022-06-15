@@ -1,13 +1,8 @@
-import Agents from "../coolsim-agentmanager/index.js";
-import Store from "../coolsim-store/index.js";
+import Agents from "../agentmanager/index.js";
+import Store from "../store/index.js";
 import uniqid from "uniqid";
-
-
 // todo import locations
-import Events from "../coolsim-location/Events/index.js";
-
-
-
+import Events from "../location/Events/index.js";
 
 export default class{
 
