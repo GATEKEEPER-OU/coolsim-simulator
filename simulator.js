@@ -35,7 +35,7 @@ export default class{
 
         if(this.params.save){
             try {
-                this.store = new Store({type: "simulations"});
+                this.store = new Store({type: "simulations",id:this.id});
             }catch (err){
                 console.error("store error",err)
             }
