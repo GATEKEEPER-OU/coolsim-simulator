@@ -1,4 +1,4 @@
-import Agents from "../agentmanager/index.js";
+import Agents from "../agent-manager/index.js";
 import Store from "../store/index.js";
 import uniqid from "uniqid";
 // todo import locations
